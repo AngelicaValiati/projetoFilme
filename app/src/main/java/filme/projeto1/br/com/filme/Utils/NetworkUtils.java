@@ -19,12 +19,9 @@ public class NetworkUtils {
     private static final String TAG = NetworkUtils.class.getSimpleName();
 
     private static final String DYNAMIC_WEATHER_URL =
-            "https://api.themoviedb.org/3/movie/popular?api=734dda9b737ce2921e943c96ff3a25fa&language=pt-BR";
+            "https://api.themoviedb.org/3/movie/popular";
 
-    private static final String STATIC_WEATHER_URL =
-            "https://andfun-weather.udacity.com/staticweather";
-
-    private static final String FORECAST_BASE_URL = STATIC_WEATHER_URL;
+    private static final String FORECAST_BASE_URL = DYNAMIC_WEATHER_URL;
 
     /*
      * NOTE: These values only effect responses from OpenWeatherMap, NOT from the fake weather
